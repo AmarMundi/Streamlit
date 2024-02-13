@@ -7,8 +7,8 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import SentenceTransformerEmbeddings
 import streamlit as st 
 
-st.set_page_config(page_title="Insurance RAG Demo")
-st.title("Insurance RAG Demo")
+st.set_page_config(page_title="ESG RAG Demo")
+st.title("ESG RAG Demo")
 
 load_dotenv()
 
