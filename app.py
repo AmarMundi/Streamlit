@@ -7,8 +7,8 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import SentenceTransformerEmbeddings
 import streamlit as st 
 
-st.set_page_config(page_title="ESG RAG Demo")
-st.title("ESG RAG Demo")
+st.set_page_config(page_title="NIO Sustainability Advisor Demo")
+st.title("NIO Sustainability Advisor Demo")
 
 load_dotenv()
 
@@ -59,7 +59,7 @@ def main():
 
     text_query = st.text_area("Ask your Question", height=100)
 
-    generate_response_btn = st.button("Run RAG")
+    generate_response_btn = st.button("Advisor Response")
 
     st.subheader("Response")
     if generate_response_btn and text_query:
