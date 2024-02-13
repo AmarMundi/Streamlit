@@ -12,7 +12,7 @@ st.title("Insurance RAG Demo")
 
 load_dotenv()
 
-os.environ["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"] = os.getenv("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")
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 #question = "What is Group life insurance?"
 
